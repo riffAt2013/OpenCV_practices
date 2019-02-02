@@ -7,7 +7,7 @@ import cv2
 #Various filters are there
 #IMREAD_COLOR = 1
 #IMREAD_UNCHANGED = -1
-img = cv2.imread('C:\\Users\\Rifat\\Desktop\\IMG_20170906_172014_2.jpg', cv2.IMREAD_GRAYSCALE)
+img = cv2.imread('test.jpg', cv2.IMREAD_GRAYSCALE)
 
 #show the image, first arg = 'name_of_image', second 'imread' object
 cv2.imshow('HELLO!', img)
