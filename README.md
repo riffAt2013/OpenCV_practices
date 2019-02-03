@@ -1,4 +1,8 @@
-Open Source Computer Vision library version 3.1
+Sentdexs OpenCV tutorial - [Link](https://www.youtube.com/playlist?list=PLQVvvaa0QuDdttJXlLtAJxJetJcqmqlQq)
 
-using Python3
+## OpenCV installation procedure
+Use this [link](https://www.lfd.uci.edu/~gohlke/pythonlibs/) to download OpenCV with appropriate .whl file for your system
+Then use `pip install YOUR_WHEEL.whl`, `cd` if you need to.
 
+## Dependencies
+- Numpy
