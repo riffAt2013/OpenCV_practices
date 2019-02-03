@@ -5,7 +5,7 @@ import numpy as np
 
 
 #load the image as usual, here we're using colored sample
-img = cv2.imread('test.jpg', cv2.IMREAD_COLOR)
+img = cv2.imread('src/test.jpg', cv2.IMREAD_COLOR)
 
 #draw a white line
 #first param - image object
