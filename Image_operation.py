@@ -6,7 +6,8 @@ img = cv2.imread('test.jpg', cv2.IMREAD_COLOR)
 
 #To see color value in a Pixel, in B G R
 pixel = img[99,66]
-Assigning color values to a pixel
+
+#Assigning color values to a pixel
 img[99, 66] = [255,255,255]
 print(pixel)
 
