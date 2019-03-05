@@ -6,17 +6,17 @@ import numpy as np
 img1 = cv2.imread('src/pic1.jpg')
 fey = cv2.imread('src/fey.jpg')
 
-#adding image ;), both with their original opacity
-add = img1+ img2
+#adding image ;), both with their original opacity, where img1,img2 must be in same res
+# add = img1+ img2
 
 #cv2 addition, this adds per pixel color values, and adds it to get the
 #new color value for same pixel position
 #(1,1,1) + (200,40,255) = (201,41,255)
-add = cv2.add(img1, img2)
+#add = cv2.add(img1, img2)
 
 #for weighted adding, here img1 should have 90% opacity
 #5th param is gamma value
-weighted = cv2.addWeighted(img1, 0.9, img2, 0.1, 1)
+#weighted = cv2.addWeighted(img1, 0.9, img2, 0.1, 1)
 
 
 #For COPYPASTA entire image 
