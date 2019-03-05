@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
-img = cv2.imread('test.jpg', cv2.IMREAD_COLOR)
+img = cv2.imread('src//test.jpg', cv2.IMREAD_COLOR)
 
 #To see color value in a Pixel, in B G R
 pixel = img[99,66]
