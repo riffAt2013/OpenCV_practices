@@ -24,7 +24,7 @@ def windowResizedOutput(winname,h,w, waitKey, imageMatrix):
 	cv.waitKey(waitKey)	
 		
 
-image = cv.imread('pic/DSC_0103.jpg')
+image = cv.imread('src/rifat.jpg')
 
 image = singleChanneling(image, "red")
 
