@@ -1,7 +1,6 @@
 import cv2
 import numpy as np
 
-
 #load img
 img1 = cv2.imread('src/pic1.jpg')
 fey = cv2.imread('src/fey.jpg')
