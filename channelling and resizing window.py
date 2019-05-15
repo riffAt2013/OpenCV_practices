@@ -19,7 +19,7 @@ def singleChanneling(imgMatrix,channelName):
 
 def windowResizedOutput(winname,h,w, waitKey, imageMatrix):
 	cv.namedWindow(winname, cv.WINDOW_NORMAL)
-	cv.resizeWindow(winname, h,w)
+	cv.resizeWindow(winname, h, w)
 	cv.imshow(winname, imageMatrix)
 	cv.waitKey(waitKey)	
 		
@@ -28,6 +28,6 @@ image = cv.imread('src/rifat.jpg')
 
 image = singleChanneling(image, "red")
 
-windowResizedOutput('sexy', 1200, 800, 0, image)
+windowResizedOutput('sexy', 550, 675, 0, image)
 
 
