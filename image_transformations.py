@@ -49,9 +49,23 @@ def resize (image, width=None, height=None, inter=cv2.INTER_AREA):
 	return cv2.resize(image, dim, interpolation = inter)
 
 
+"""
+Flipping is implemented via flip method, here
+direction = 1 -> horizontal flip
+direction = 0 -> vertical flip
+direction = -1 -> vertical && horizontal flip || Default val is 1 
+"""
+def flip (image, direction = 1):
+	return cv2.flip(image, direction)
+
+
+def crop (image, startX, startY, endX, endY):
+	cropped = image[int(startY):int(endY), int(startX):int(endX)]
+	return cropped
 
 cv2.imshow('translated', translation(image, 25, -25))
 cv2.imshow('rotated_img', rotation(image, 310))
 cv2.imshow('winname', resize(image, height = 200))
-
+cv2.imshow('1', flip(image))
+cv2.imshow("winname", crop(image, 0, 0, 340, 240))
 cv2.waitKey(0)
