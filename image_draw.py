@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 
+#checking SSH connections
 #load the image as usual, here we're using colored sample
 img = cv2.imread('src/test.jpg', cv2.IMREAD_COLOR)
 
